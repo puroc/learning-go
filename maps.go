@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	//定义一个map，并赋予初值
+	//定义一个map，并赋予初值。map的key不能是切片、map和func类型的
 	m := map[string]string{
 		"a": "1",
 		"b": "2",
